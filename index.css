@@ -1,0 +1,355 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #2b2b2b;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+section {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e9edf0;
+  border-left: 1px solid #ededed;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  background-color: #24c1dd;
+}
+::-webkit-scrollbar-thumb {
+  background: #24c1dd;
+}
+a:hover,
+a:active {
+  color: #24c1dd;
+  text-decoration: none;
+}
+a:focus,
+a:active,
+button:focus,
+button:active,
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn:active:focus,
+.btn:focus {
+  outline: none;
+  text-decoration: none;
+}
+.form-control::placeholder {
+  color: #4c4c4c;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #4c4c4c;
+}
+.form-control:-ms-input-placeholder {
+  color: #4c4c4c;
+}
+
+:focus {
+  outline: none;
+}
+img {
+  max-width: 100%;
+}
+section,
+.section-padding {
+  position: relative;
+  padding: 7.5rem 0;
+  overflow: hidden;
+}
+.section-top-margin {
+  margin-top: 7.5rem;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.3;
+  font-family: 'Raleway', sans-serif;
+  margin-bottom: 0;
+}
+.btn.focus,
+.btn:focus {
+  box-shadow: none;
+}
+
+/*About US CSS*/
+
+.rare-box {
+  height: 195px;
+  width: 100%;
+  background-color: #111;
+  position: relative;
+  left: 0.5rem;
+}
+
+.image-about {
+  top: -155px;
+  margin-left: 30px;
+  margin-bottom: -145px;
+}
+
+.pr-5 {
+  padding-right: 4rem !important;
+}
+
+.pl-6 {
+  padding-left: 1rem;
+}
+
+.green {
+  color: #66c904;
+}
+
+.blue {
+  color: #24c1dd;
+}
+.dark-blue {
+  color: #222d38;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 44px;
+  font-weight: 600;
+  color: #222d38;
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  color: #222d38;
+}
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #222d38;
+  line-height: 2.5;
+}
+h5 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #4c4c4c;
+}
+
+h6 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.about ul li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  list-style: none;
+  display: inline-flex;
+  color: #4c4c4c;
+}
+.about ul li:before {
+  font-family: FontAwesome;
+  padding-right: 15px;
+  font-weight: 300;
+  content: '\f061';
+  background-color: #24c1dd;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.text-description {
+  text-align: left;
+}
+/*Services*/
+
+.services-section {
+  background-color: #f9f9f9;
+}
+
+.services-heading {
+  color: #222d38;
+}
+
+.services-para {
+  color: #4c4c4c;
+  padding-bottom: 50px;
+}
+
+.services-heading {
+  padding-bottom: 10px;
+}
+
+/****Client Section****/
+
+/***conatct US***/
+h1,
+p {
+  text-align: center;
+}
+label {
+  display: block;
+  margin: 1em 0 0.2em;
+}
+/* single-line text, checkbox, and button */
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.3em;
+  font-size: 20px;
+  background-color: #fbfbfb;
+  border: solid 1px #ccc;
+  resize: vertical;
+}
+textarea {
+  min-height: 180px;
+}
+select {
+  color: indigo;
+}
+option {
+  color: blue;
+  background: lavenderBlush;
+}
+input[type='checkbox'] {
+  display: inline;
+  width: auto;
+  color: red;
+}
+
+input[type='submit'] {
+  background: lightcoral;
+  margin: 1em 0 0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-out;
+}
+
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover {
+  background: lavenderBlush;
+}
+
+/* hover and focus states */
+input[type='submit']:hover,
+input[type='submit']:focus {
+  background: lightgreen;
+  outline: none;
+}
+
+@media screen and (min-width: 600px) {
+  /*  make the form 2 columns */
+  form:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  .column {
+    width: 50%;
+    padding: 1em;
+    float: left;
+  }
+}
+
+/****Footer Started****/
+
+.footer-social li {
+  display: inline-block;
+}
+
+.footer-social a {
+  display: block;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50px;
+  font-size: 17px;
+  margin: 10px 5px;
+  border: 1px solid transparent;
+  background-color: darkblue;
+}
+
+.footer-social li a:hover {
+  background-color: #00bcd4;
+  color: #ffffff;
+}
+
+.nav-item:hover {
+  background-color: #66c904;
+  border-radius: 5%;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.social-icon {
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.social-icon i:hover {
+  background-color: #24c1dd;
+  transition: 0.3s all ease-in;
+}
+
+.social-icon i {
+  padding: 0.7rem;
+  border-radius: 100%;
+  font-size: 1.1rem;
+}
+
+.swiper-slide:hover {
+  background: greenyellow;
+}
